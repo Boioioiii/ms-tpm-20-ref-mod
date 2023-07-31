@@ -74,6 +74,7 @@ ADD_COMPILER_FLAG([-Wno-error=parentheses])
 ADD_COMPILER_FLAG([-Wno-error=pointer-to-int-cast])
 ADD_COMPILER_FLAG([-Wno-error=missing-braces])
 ADD_COMPILER_FLAG([-Wno-error=unused-result])
+ADD_COMPILER_FLAG([-Wno-deprecated-declarations])
 
 AS_IF([test "x$enable_usedeviceid" = "xyes"], [
     ADD_COMPILER_FLAG([-DNDEBUG])
