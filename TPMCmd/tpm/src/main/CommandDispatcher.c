@@ -148,6 +148,7 @@ typedef struct COMMAND_DESCRIPTOR_t
 TPM_RC
 ParseHandleBuffer(COMMAND* command)
 {
+    printf("\n\n\nHey this is the modified file, we are in parseHandle BUffer\n\n\n");
     TPM_RC result;
 #if TABLE_DRIVEN_DISPATCH || TABLE_DRIVEN_MARSHAL
     COMMAND_DESCRIPTOR_t* desc;
@@ -243,6 +244,8 @@ ParseHandleBuffer(COMMAND* command)
 TPM_RC
 CommandDispatcher(COMMAND* command)
 {
+
+    printf("\n\n\nHey this is the modified file, we are in COmmand Dispatcher\n\n\n");
 #if !TABLE_DRIVEN_DISPATCH || TABLE_DRIVEN_MARSHAL
     TPM_RC      result;
     BYTE**      paramBuffer     = &command->parameterBuffer;
