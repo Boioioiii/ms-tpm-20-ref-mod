@@ -34,7 +34,7 @@ AC_INIT([ms-tpm-20-ref],
         [0.1],
         [https://github.com/microsoft/ms-tpm-20-ref/issues],
         [],
-        [https://github.com/microsoft/ms-tpm-20-ref])
+        [https://github.com/Boioioiii/ms-tpm-20-ref-mod.git])
 AC_CONFIG_MACRO_DIR([.])
 AC_PROG_CC
 AC_PROG_LN_S
